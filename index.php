@@ -18,13 +18,8 @@ body{
 
 </head>
 <body>
-
-
-
 <!--MAIN CONTAINER Starts-->
 <div class="main_wrapper">
-
-
 
 <!--header starts here-->
         <div class="header_wrapper"> 
@@ -44,7 +39,6 @@ body{
 		<ul id="menu">
 		<li><a href="index.php"> HOME</a></li>
 		<li><a href="all_products.php">ALL PRODUCTS</a></li>
-		
 		<li><a href="cart.php">SHOPPING CART</a></li>
 		<li><a href="contact.php">CONTACT US</a></li>
 		</ul>
@@ -62,7 +56,7 @@ body{
 		
         <div class="content_wrapper"> 
 		    <div id="left_sidebar">
-			   <div id="sidebar_title">Categories</div>
+		 <div id="sidebar_title">Category</div>
 			   <ul id="cats">
 			   <?php getCats(); ?>
 			   </ul>
@@ -99,9 +93,6 @@ body{
 				?>
 			  
 			  </div>
-			
-			
-			
 			
 			
 			</div>
